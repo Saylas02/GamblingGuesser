@@ -16,3 +16,14 @@ class Roulette:
 
     def get_color(self, number):
         return self.colors.get(number)
+
+
+class Player:
+    def __init__(self, name, asset):
+        self.name = name
+        self.asset = asset
+
+    def bet(self, amount, number):
+        if amount <= self.asset:
+            self.asset -= amount
+            return Bet(self, amount, number)
