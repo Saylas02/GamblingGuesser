@@ -1,3 +1,5 @@
+import random
+
 class Roulette:
     def __init__(self):
         self.numbers = list(range(0, 37))
@@ -8,3 +10,9 @@ class Roulette:
             27: 'red', 28: 'black', 29: 'red', 30: 'black', 31: 'red', 32: 'black', 33: 'red', 34: 'black', 35: 'red',
             36: 'black'
         }
+
+    def spin_table(self):
+        return random.choice(self.numbers)
+
+    def get_color(self, number):
+        return self.colors.get(number)
