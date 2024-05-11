@@ -27,3 +27,15 @@ class Player:
         if amount <= self.asset:
             self.asset -= amount
             return Bet(self, amount, number)
+        else:
+            print(f"You only have {self.asset}, you cannot afford a bet of {amount}!")
+
+
+class Bet:
+    def __init__(self, player, amount, number):
+        self.player = player
+        self.amount = amount
+        self.number = number
+
+    def win_amount(self):
+        return
