@@ -38,4 +38,5 @@ class Bet:
         self.number = number
 
     def win_amount(self):
+        #TODO: see what the winning values are for bets
         return
