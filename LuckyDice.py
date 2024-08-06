@@ -8,3 +8,5 @@ class LuckyDice:
 
     def roll_dice():
         return np.random.randint(1, 6)
+
+    #TODO: setup complete model and implement
