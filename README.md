@@ -13,6 +13,7 @@ Game-modes can be seen below
 
 ### Roulette
 - The well known concept of roulette:
+- status: on hold
   - The Wheel:
     - The roulette wheel has 37 or 38 numbered pockets, depending on the version of the game.
     - In European Roulette, there are 37 pockets: numbers 1 to 36 and a single green zero (0).
